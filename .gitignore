@@ -1,0 +1,4 @@
+.next
+now.*.json
+node_modules
+.preview/
