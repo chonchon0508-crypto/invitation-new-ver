@@ -1,4 +1,4 @@
-# Đại tiệc khai hoa · Khối Consumer
+# Đại tiệc Khai Hoa · Khối Consumer
 
 Thiệp mời một trang, tông xanh navy, bao thư kính có thể mở bằng chuột, chạm hoặc bàn phím. Pháo hoa tự chạy khi vào trang và khi mở thiệp, không có nút bật/tắt hiệu ứng.
 
@@ -12,6 +12,8 @@ yarn.cmd dev
 ```
 
 Các script đã có cờ tương thích OpenSSL cho Next.js 9 trên Node.js 20. Nếu đã cài thư viện thì chỉ cần `yarn.cmd dev`.
+
+Nút đếm ngược dưới tiêu đề cập nhật theo thời gian thực đến 18:00 ngày 20/11/2026 (UTC+7). Bấm để xem ngày, giờ, phút, giây; đến giờ sẽ chuyển sang trạng thái khai tiệc.
 
 ## Ba bản thiệp
 
@@ -30,7 +32,7 @@ Trang `/` và mã không hợp lệ hiển thị bản Team Consumer. Đây là 
 - 25 người tham dự khối Consumer.
 - Dress code: xanh navy, đen, trắng.
 
-Sửa thông tin chung trong `src/config/event.js`; sửa người nhận và lời mời trong `src/config/invitees.json`; sửa thiết kế trong `src/styles/invitation.css`. Không cần `.env`, database hoặc API. Google Fonts có font hệ thống dự phòng nếu thiết bị không có mạng.
+Sửa thông tin chung trong `src/config/event.js`; sửa người nhận và lời mời trong `src/config/invitees.json`; sửa thiết kế trong `src/styles/invitation.css`. Không cần `.env`, database hoặc API. Font Manrope cho tiêu đề bên ngoài và Be Vietnam Pro cho nội dung thư được lưu trong public/fonts kèm giấy phép OFL. Họa tiết khảm vàng hình học nằm trong src/components/Geometry.jsx.
 
 ## Build
 
